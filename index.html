@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Demo Sign Form Which is Created using HTML and CSS.">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <header>
+        <h1>Signup</h1>
+    </header>
+    <main>
+        <form class="form-container" id="passwordForm">
+            <input type="text" placeholder="Full Name" class="f5" required><br>
+            <input type="email" placeholder="Email" class="f5" required><br>
+            <input type="password" placeholder="Password" id="password" class="f5 passwordFeedback" required><br>
+            <span id="passwordFeedback" class="feedback"></span><br>
+            <input type="password" placeholder="Confirm Password" id="confirmPassword" class="f5 passwordFeedback" required><br>
+            <input type="date" placeholder="MM/DD/YYYY" class="f5" required><br>
+            <input type="radio" value="Student" name="Occupation" class="box-button" required>Student
+            <input type="radio" value="Employee" name="Occupation" class="box-button" required>Employee<br>
+            <input type="checkbox" class="box-button" required> I agree to all the Terms and conditions<br><br>
+            <button type="submit" class="signup-button">Signup</button>
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
